@@ -1,7 +1,4 @@
-version: '2'
-
-services:
-  app:
+app:
     build: .
     volumes:
       - ./android:/home/cmbuild/android

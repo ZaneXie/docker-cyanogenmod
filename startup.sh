@@ -8,5 +8,6 @@ fi
 
 export USER="cmbuild"
 
-# Launch screen session
-screen -s /bin/bash
+while true; do
+	sleep 1000;
+done
